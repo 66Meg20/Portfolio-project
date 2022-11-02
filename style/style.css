@@ -5,11 +5,17 @@
   --default-font-family: "Poppins", sans-serif;
 }
 
-h1 h2 h3 h4 h5 h6 {
-  color: black;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: var(--heading-font-family);
+  color: black;
   font-weight: bold;
 }
+
 h2 {
   font-size: 64px;
 }
@@ -92,6 +98,7 @@ p {
 .project-description {
   padding: 120px 60px;
 }
+
 @media (max-width: 900px) {
   .hero h1 {
     font-size: 44px;
