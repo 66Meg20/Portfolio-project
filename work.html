@@ -31,27 +31,67 @@
         rel="stylesheet"
       />
       <link rel="stylesheet" href="style/style.css" />
-      <title>Document</title>
+      <meta
+        name="description"
+        content="Check out the projects Megan has built so far"
+      />
+      <title>Megan's projects</title>
     </head>
     <body>
+      <div class="container">
+        <nav class="d-flex justify-content-between">
+          <a href="/" title="Homepage">
+            <img
+              src="images/logo.png"
+              class="logo d-none d-md-block"
+              alt="megan logo"
+            />
+            <img
+              src="images/logo-small.png"
+              class="logo d-block d-md-none"
+              alt="megan logo"
+            />
+          </a>
+          <ul>
+            <li><a href="/" title="Homepage">Home</a></li>
+            <li><a href="/about.html" title="About Megan">About</a></li>
+            <li class="active">
+              <a href="/work.html" title="Megan's work">Work</a>
+            </li>
+            <li><a href="/contact.html" title="Contact Megan">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
       <div class="content-container container">
         <div class="content">
           <h1 class="mb-5">Take a look at what I've been working on!</h1>
           <div class="row">
             <div class="col-md-6 mb-4">
-              <img src="images/yogurt.png" alt="" class="img-fluid mb-3" />
+              <img
+                src="images/yogurt.png"
+                alt="Yogurt project"
+                class="img-fluid mb-3"
+              />
               <h3 class="text-center m-0">Yogurt Project</h3>
               <p class="text-center text-muted">Built with HTML and CSS</p>
             </div>
             <div class="col-md-6 mb-4">
-              <img src="images/weather.png" alt="" class="img-fluid mb-3" />
+              <img
+                src="images/weather.png"
+                alt="Weather app"
+                class="img-fluid mb-3"
+              />
               <h3 class="text-center m-0">Weather Project</h3>
               <p class="text-center text-muted">
                 Built with HTML, CSS and JavaScript
               </p>
             </div>
             <div class="col-md-6 mb-4">
-              <img src="images/dictionary.png" alt="" class="img-fluid mb-3" />
+              <img
+                src="images/dictionary.png"
+                alt="Dictionary app"
+                class="img-fluid mb-3"
+              />
               <h3 class="text-center m-0">Dictioinary Project</h3>
               <p class="text-center text-muted">
                 Built with HTML, CSS and React
@@ -60,7 +100,7 @@
             <div class="col-md-6 mb-4">
               <img
                 src="images/Idolish7-project.png"
-                alt=""
+                alt="Idolish7 project"
                 class="img-fluid mb-3"
               />
               <h3 class="text-center m-0">Idolish7 Project</h3>
@@ -68,10 +108,62 @@
             </div>
           </div>
         </div>
+        <footer>
+          <div
+            class="contact-box justify-content-between mb-5 d-none d-md-flex"
+          >
+            <div>
+              <h3>Work Inquiry</h3>
+              <p class="text-muted">Let's work together</p>
+            </div>
+            <div>
+              <a href="/contact.html" class="btn btn-branding mt-3"
+                >Contact me</a
+              >
+            </div>
+          </div>
+          <div class="d-flex justify-content-center mb-5">
+            <a
+              href="mailto:66meg.dj2066@gmail.com"
+              class="email-link"
+              title="emqil megan"
+              >66meg.dj2066@gmail.com</a
+            >
+          </div>
+          <div class="social-links d-flex justify-content-center mb-5">
+            <a
+              href="https://www.github.com/66Meg20"
+              target="blank"
+              title="GitHub Profile"
+            >
+              <i class="fa-brands fa-github"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/66Meg20"
+              target="blank"
+              title="Instagram Profile"
+            >
+              <i class="fa-brands fa-instagram"></i
+            ></a>
+            <a
+              href="https://www.twitter.com/66Meg20"
+              target="blank"
+              title="Twitter Profile"
+            >
+              <i class="fa-brands fa-twitter"></i
+            ></a>
+          </div>
+          <p class="text-center mt-5">
+            🤘This website was coded by Megan Jackson, and is
+            <a
+              href="https://github.com/66Meg20/Portfolio-project"
+              target="blank"
+            >
+              open sourced</a
+            >
+          </p>
+        </footer>
       </div>
-      <a href="contact.html" class="btn btn-branding about-button">
-        Contact me</a
-      >
     </body>
   </html>
 </html>
