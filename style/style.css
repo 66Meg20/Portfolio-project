@@ -64,6 +64,21 @@ p {
 .project-paragraph {
   text-align: center;
 }
+.contact-icons {
+  font-size: 100px;
+  color: #00bbf0;
+  background: #005792;
+  padding: 10px 14px;
+  border-radius: 50%;
+}
+.contact-links {
+  text-decoration: none;
+  color: var(--branding-color);
+  font-size: 18px;
+}
+.contact-links:hover {
+  color: #005792;
+}
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -137,6 +152,11 @@ footer .contact-box {
   padding: 30px 120px;
   border-radius: 10px;
 }
+header .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
 
 .btn-branding {
   background: var(--branding-color);
@@ -182,5 +202,12 @@ footer .contact-box {
   .content-container {
     text-align: center;
     padding: 0;
+  }
+  .btn-branding-outline {
+    font-size: 12px;
+  }
+  header .contact-box {
+    padding: 20px;
+    border-radius: 10px;
   }
 }
